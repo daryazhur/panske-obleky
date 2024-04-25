@@ -59,3 +59,79 @@ h1.site-title span {
   stroke: #000;
   stroke-width: 2;
 }
+
+.product.container {
+  display: flex;
+  align-items: center;
+}
+
+
+.product__colors {
+  margin-left: 70px;
+}
+
+.colors {
+  display: flex;
+  align-items: center;
+}
+
+.color-names {
+  display: flex;
+  align-items: center;
+ 
+}
+
+.color__name {
+  margin: 0px 15px 0px 10px;
+  text-align: center;
+}
+
+.color__name:nth-child(4n) {
+  margin: 20px 0px 0px 0px
+}
+.color-option {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 27px; 
+  cursor: pointer;
+  box-shadow: 0px 0px 6px 1px white;
+}
+
+.color-option-white {
+  background-color: white;
+}
+
+.color-option-black {
+  background-color: black;
+}
+
+.color-option-red {
+  background-color: #852c2c;
+}
+
+.color-option-sky-blue {
+  background-color: skyblue;
+}
+
+.product__button {
+  display: flex;
+  align-items: center;
+  margin-left: 90px;
+  margin-top: 65px;
+}
+
+.button {
+  padding: 8px 50px;
+  background-color: #141518;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  border: 1px solid white 
+  
+
+}
+
+.tlacitko:hover {
+  background-color: #00796b;
+}
